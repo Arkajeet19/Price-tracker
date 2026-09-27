@@ -1,0 +1,16 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #f7f7f8; }
+.app { max-width: 1000px; margin: 0 auto; padding: 24px; }
+header { display: flex; justify-content: space-between; align-items: center; }
+.card { background: white; border-radius: 8px; padding: 16px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.layout { display: flex; gap: 16px; }
+.product-list { list-style: none; padding: 0; min-width: 220px; }
+.product-list li { padding: 8px; border-radius: 6px; cursor: pointer; }
+.product-list li.active { background: #e8e8ff; }
+form { display: flex; gap: 8px; margin-bottom: 8px; }
+input { flex: 1; padding: 6px; }
+.results { list-style: none; padding: 0; }
+.results li { display: flex; justify-content: space-between; padding: 4px 0; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { text-align: left; padding: 4px 6px; border-bottom: 1px solid #eee; }
+tr.failed { color: #b00020; }
+tr.retried { color: #b06a00; }
