@@ -10,7 +10,7 @@ API response.
 
 - **Live site:** https://price-tracker-six-swart.vercel.app/
 - **Backend API:** https://price-tracker-zt32.onrender.com/api
-- **GitHub repo:** _add your repo URL here_
+- **GitHub repo:** https://github.com/Arkajeet19/Price-tracker
 
 ## Project structure
 
